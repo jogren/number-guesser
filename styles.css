@@ -6,11 +6,15 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family:
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
 
+}
+
+h1 {
+  font-weight: 300;
 }
 
 .container {
@@ -65,5 +69,12 @@ output {
   display: flex;
   justify-content: center;
 }
+
+.number-word {
+  color: #DD1972;
+  font-weight: 700;
+}
+
+
 
 
