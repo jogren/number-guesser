@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>Number Guesser</title>
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="headline"><span class="number-word">Number</span> Guesser</h1>
+      <p class="sub-headline">Ultimate Challenger Edition</p>
+    </header>
+
+    <main>
+      <section class="set-range-feature">
+        <h3>Set Range</h3>
+        <form>
+          <label>Min Range</label>
+          <input type="text">
+          <label>Max Range</label>
+          <input type="text">
+          <button class="update-button" type="button">UPDATE</button>
+        </form>
+      </section>
+
+      <section class="challenger-guess-feature">
+        <div class="challenger-guess-feature-left">
+          <p>The current Range is <span class="min-current-range">1</span> to <span class="max-current-range">100</span></p>
+          <h3 class="guess-feature-challenger1">Challenger 1</h3>
+          <label>Name</label>
+          <input class="challenger1-name" type="text">
+          <h3>Challenger 2</h3>
+          <label>Name</label>
+          <input type="text">
+        </div>
+        <div class="challenger-guess-feature-right">
+          <label>Guess</label>
+          <input type="text">
+          <label>Guess</label>
+          <input type="text">
+        </div>
+        <div class="challenger-guess-feature-buttons">
+          <button class="submit-guess" type="button">SUBMIT GUESS</button>
+          <button class="reset-clear-button" type="button">RESET GAME</button>
+          <button class="reset-clear-button" type="button">CLEAR GAME</button>
+        </div>
+      </section>
+
+      <section>
+        <div class="latest-score-left">
+         <h3 class="latest-score-text">Latest Score</h3>
+         <p>Challenger 1 Name</p>
+         <p>current guess</p>
+         <h1 class="challenger1-latest-score" id="challenger1-latest-score-functionality">97</h1>
+         <p>that's too high</p>  
+        </div>
+        <div class="latest-score-right">
+         <p>Challenger 2 Name</p>
+         <p>current guess</p>
+         <h1 class="challenger2-latest-score" id="challenger2-latest-score-functionality">3</h1>
+         <p>that's too low</p> 
+        </div>
+      </section>
+    </main>
+
+    <output>
+      <div class="result-card1">
+        <p>CHALLENDER 1 NAME vs. CHALLENGER 2 NAME</p>
+        <h2>CHALLENGER 2 NAME <span>WINNER</span></h2>
+        <ul>
+          <li>47 GUESSES</li>
+          <li>1.35 MINUTES</li>
+          <li>(x)</li>
+        </ul>
+      </div>
+    </output>
+  </body>
+</html>
