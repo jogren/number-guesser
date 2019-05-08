@@ -6,11 +6,31 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family:
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
 
+}
+
+h1 {
+  font-weight: 300;
+  color: #DD1972;
+  text-transform: uppercase;
+}
+
+.sub-headline {
+  text-transform: uppercase;
+}
+
+.set-range-text {
+  font-weight: 700;
+  color: 404041;
+}
+
+label {
+  /*font-weight: 300;*/
+  color: #6E6E6E;
 }
 
 .container {
@@ -35,8 +55,30 @@ main {
 
 .set-range-feature {
   display: flex;
+  flex-direction: column;
   height: 100px;
   margin: 10px;
+ /* align-items: flex-end;
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 15px;
+  position: relative;*/
+}
+
+.range-form {
+  display: flex;
+  justify-content: space-between;
+  /*flex-direction: column;*/
+}
+
+/*.wrapper {
+  display: flex;
+}*/
+
+.min-range,
+.max-range {
+  display: flex;
+  flex-direction: column;
 }
 
 /*CHALLENGER GUESS FEATURE*/
@@ -127,5 +169,12 @@ output {
   display: flex;
   justify-content: center;
 }
+
+.number-word {
+  
+  font-weight: 700;
+}
+
+
 
 
